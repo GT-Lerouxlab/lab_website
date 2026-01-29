@@ -8,4 +8,7 @@ output: html_document
 - August - Leroux lab established.
 - August - We welcomed our first graduate student, Jieyee Lin, and our first postdoctoral fellow, Yichi Zhang, to the lab.
 - October - We welcomed our first undergraduate student, Anvit P. Divekar, to the lab. 
+- October - We welcomed our first undergraduate student, Anvit P. Divekar, to the lab. 
+
+
 
