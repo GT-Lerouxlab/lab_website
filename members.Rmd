@@ -1,0 +1,40 @@
+---
+title: "Lab Members"
+output: html_document
+---
+
+## Principal Investigator
+
+### Audrey Leroux
+
+
+---
+
+
+## Postdoctoral Fellow
+
+### Yichi Zhang
+
+![](static/images/YichiZhang_image_20251205.jpg){width=20%}
+
+I am a postdoctoral fellow, and my research focuses on measurement bias in large-scale assessments and the development of robust statistical models. I work with hierarchical linear models (linear mixed-effects models), latent variable models (e.g., structural equation modeling), and related psychometric and statistical techniques. My overarching goal is to use psychometric methods and statistical modeling to investigate questions related to fair and accurate psychological measurement. My primary research line focuses on quantifying the practical impact of item bias (noninvariance) on total scale scores. A second line of work evaluates and develops methods that address the effects of assumption violations in multilevel models, such as bootstrapping techniques for hierarchical data.
+
+- [CV](static/cv/YichiZhang_CV_20251205.pdf)
+- Email: yzhang4363@gatech.edu
+- Personal website: https://yichiyczhang.rbind.io/about.html 
+
+
+---
+
+
+## Graduate Students
+
+### Jie Yee Lim
+
+
+---
+
+
+## Undergraduates Students
+
+### Anvit P. Divekar

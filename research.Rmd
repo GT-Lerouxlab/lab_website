@@ -1,0 +1,14 @@
+---
+title: "Research Projects"
+output: html_document
+---
+
+### Multilevel Model
+
+Our research line in MLM centers on advancing statistical approaches that better reflect the realities of complex data structures. In many social and behavioral studies, individuals move across contexts (e.g., switching schools or workplaces) or are simultaneously connected to multiple groups that are not nested within each other. Such cross-classified and multiple-membership structures challenge traditional hierarchical modeling. We examine, compare, and develop methods that can properly account for these complexities, improving both inference and applied decision-making.
+
+---
+
+### Psychological Measurement
+
+Our lab’s research in psychological measurement includes work on computerized adaptive testing (CAT) and related measurement issues. Our CAT research compares novel and commonly used stopping rules and item exposure control procedures through simulation studies. CAT can substantially reduce test length while increasing measurement precision, depending on choices made across different components of the testing system, such as the item pool, item selection procedure, trait estimation method, and stopping criteria.

@@ -1,0 +1,54 @@
+---
+title: "Joining Us"
+output: html_document
+---
+
+## Undergraduate Applicants
+
+We welcome motivated undergraduate students who are interested in quantitative psychology, statistics, and measurement to join the lab.
+
+### What we look for
+You do not need to know everything before joining, but the following are especially helpful:
+
+- Interest in statistics, research methods, or data science  
+- Basic experience with R (or a strong willingness to learn)  
+- Reliability and good communication  
+
+Previous coursework in statistics, research methods, or programming is a plus but not required.
+
+### How to apply
+If you are interested in joining as an undergraduate research assistant, please send an email to the lab with:
+
+- A brief introduction (your major, year, and any relevant courses)  
+- A short statement (1–2 paragraphs) about why you’re interested in the lab’s work  
+- Your CV or résumé (if you have one)  
+- Your approximate weekly availability during the semester  
+
+Please use the subject line: **“Undergraduate Research – [Your Name]”**.  
+We review inquiries as time allows and may not be able to accommodate all interested students.
+
+---
+
+## PhD Applicants
+
+We are excited to hear from prospective PhD students who are interested in psychometrics, multilevel modeling, and statistical methods for psychological and educational research.
+
+### Program & admissions
+
+PhD students are admitted through the School of Psychology at Georgia Tech, not directly into the lab. If you are interested in working with our group, please:
+
+1. Apply to the appropriate graduate program (e.g., Quantitative Psychology or related area), following the instructions on the department’s admissions page.  
+2. Indicate your interest in working with our lab in your personal statement and list the relevant faculty member(s) as potential advisors.  
+
+### How to reach out
+
+If you are considering applying, you are welcome to send a brief email that includes:
+
+- A short introduction (your current institution and program)  
+- A few sentences about your research interests and how they align with the lab  
+- Your CV  
+- (Optional) A writing sample or recent project/paper  
+
+Please use the subject line: **“Prospective PhD Applicant – [Your Name]”**.
+
+While we may not be able to respond in detail to every inquiry, we do appreciate hearing from prospective students and will read your message as time permits. For official admissions requirements and deadlines, please refer to the Georgia Tech School of Psychology website.

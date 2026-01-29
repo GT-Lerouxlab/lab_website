@@ -1,12 +1,27 @@
 name: "."
-title: "My Website"
+title: "Leroux Lab"
 description: |
   My Website
 output_dir: "docs"
 navbar:
+  search: true
   right:
     - text: "Home"
       href: index.html
-    - text: "About"
-      href: about.html
-output: distill::distill_article
+    # - text: "About"
+    #   href: about.html
+    - text: "Members"
+      href: members.html
+    - text: "Research"
+      href: research.html
+    - text: "Publications"
+      href: publications.html
+    - text: "Lab News"
+      href: Labnews.html
+    - text: "Joining Us"
+      href: joiningus.html
+    - icon: fab fa-github
+      href: https://github.com/GT-Lerouxlab
+output: 
+    distill::distill_article:
+        theme: theme.css

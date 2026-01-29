@@ -1,7 +1,8 @@
 ---
-title: "Leroux Website"
+title: "Leroux Lab Website"
+theme: theme.css
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Hello, and welcome to the Leroux Lab in the School of Psychology at Georgia Tech. We’re glad you’re here. 
 site: distill::distill_website
 ---
 

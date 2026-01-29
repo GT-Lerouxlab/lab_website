@@ -1,0 +1,59 @@
+---
+title: "Publications"
+description: |
+  Recent publications and conference presentations. 
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r write_refs, include = FALSE, cache = FALSE}
+library(RefManageR)
+# Grab bibTeX using DOIs, and save to pubs.bib
+RefManageR::GetBibEntryWithDOI(
+  unique(
+    c(readLines("pub_doi.txt"))
+  ), 
+  temp.file = "pubs.bib", 
+  delete.file = FALSE)
+# Manual bibTeX for articles without DOIs
+lines <- readLines("pub_nodoi.bib", warn = FALSE)
+
+if (length(lines) > 0) {
+  ref <- RefManageR::ReadBib("pub_nodoi.bib")
+  WriteBib(ref, "pubs.bib", append = TRUE)
+}
+```
+
+```{r, load_refs, include = FALSE, cache = FALSE}
+library(RefManageR)
+# Read "pubs.bib"
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE, 
+           no.print.fields = "url")
+myBib <- ReadBib(here::here("pubs.bib"), check = FALSE)
+```
+
+## Peer-Reviewed Articles (Selected)
+
+```{r, results = "asis"}
+for (yeari in as.character(2026:2022)) {
+  cat(paste("\n###", yeari), "\n")
+  print(myBib[date = yeari])
+}
+```
+
+---
+
+## Conference Presentations
+
+### 2026
+
+Zhang, Y., & Lai, M. H. C. (2022, April 21-26). *Evaluating standard error estimators and resampling method for multilevel models on small samples with heteroscedasticity and unbalanced cluster sizes *[Poster presentation]. AERA Annual Meeting, San Diego, CA, United States. https://convention2.allacademic.com/one/aera/aera22
+
