@@ -21,6 +21,13 @@ output:
 - Go to "File" > "New Project". In the popped-up window, select "Version Control" > "Git", put "https://github.com/GT-Lerouxlab/lab_website.git" under "Repository URL", and press "Create Project".
     - You can change the directory (location) of this project under "Create project as subdirectory of:" at "Browse...". 
 
+![](../instructions/lab_website_maintenance/images/new_project.png)
+![](../instructions/lab_website_maintenance/images/version_control.png)
+
+![](../instructions/lab_website_maintenance/images/git.png)
+
+![](../instructions/lab_website_maintenance/images/clone_git_repo.png)
+
 - There you go! You now have everything that is up on the remote Git repository on your local repository.
 
 ### Install Packages
@@ -43,9 +50,17 @@ To avoid conflicts from your and others' changes on the website files, a good ha
 
     - Click on the blue downward arrow under the "Git" tab and make sure, from the popped-up window, you get the "Already up to date" (or similar) message. If you do, then you can proceed to make changes in the files. 
 
+![](../instructions/lab_website_maintenance/images/pull.png)
+![](../instructions/lab_website_maintenance/images/already_up_to_date.png)
+
 - Every time after you made changes on your local repository, remember to 
     a. **commit** the changes by clicking on "Commit" under "Git", checking all changed files, typing in a "Commit message", and sending "Commit", and
     b. click on the green upward arrow to **push** your changes to the remote repository.
+    
+![](../instructions/lab_website_maintenance/images/commit.png)
+![](../instructions/lab_website_maintenance/images/commit2.png)
+
+![](../instructions/lab_website_maintenance/images/push.png)
 
 This allows sharing the changes you made in your local repository to the Github repository. After successfully committing and pushing changes, you are good to go for the updates you just made :)
 
@@ -55,7 +70,11 @@ This allows sharing the changes you made in your local repository to the Github 
 
 To preview the website, click on "Build Website" under "Build. 
 
+![](../instructions/lab_website_maintenance/images/build_site.png)
+
 Under "Viewer", we can preview the mobile-sized version of the website. You can also open up a desktop-sized version of the website by clicking on the "Show in new window" button (circled in red down below). 
+
+![](../instructions/lab_website_maintenance/images/viewer.png)
 
 ***
 
@@ -72,14 +91,14 @@ This page contains the profile of our lab members, including our principal inves
 Some essential R Markdown syntax is common on this page (and others as well). 
 
 #### 1. Headers
-![](../lab_website_maintenance/images/header.png)
+![](../instructions/lab_website_maintenance/images/header.png)
 
 #### 2. Bold / italicize
   - `**bold**`, **bold**
   - `*italics*`, *italics*
   
 #### 3. List
-![](../lab_website_maintenance/images/list.png)
+![](../instructions/lab_website_maintenance/images/list.png)
 
 #### 4. Horizontal rule
   - To divide up sections, use a horizontal rule `***`
@@ -89,8 +108,8 @@ Some essential R Markdown syntax is common on this page (and others as well).
       - If you receive a new / an updated CV, place that file in the folder "static", "cv". 
       - To hyperlink someone's CV to the word "CV" in `publication.Rmd`: `[CV](static/cv/file name)`
       
-![](../lab_website_maintenance/images/static.png)
-![](../lab_website_maintenance/images/cv.png)
+![](../instructions/lab_website_maintenance/images/static.png)
+![](../instructions/lab_website_maintenance/images/cv.png)
 
   - Image
       - If you receive a new picture, place that picture in the folder "static", "images". 
@@ -99,7 +118,7 @@ Some essential R Markdown syntax is common on this page (and others as well).
           - The alternative text will not appear on the webpage unless the link is broken, which may occur occasionally. It allows others to recognize the content of the picture even with a broken link. 
       - If you receive an external link to a picture, you can create a code chunk by pressing `Command + Shift + i` for mac users or `Ctrl + Shift + i` for Windows users and use the command `knitr::include_graphics("link")` in the code chunk. See below as an example. 
 
-![](../lab_website_maintenance/images/images.png)
+![](../instructions/lab_website_maintenance/images/images.png)
 
 ```{r eval=FALSE}
 knitr::include_graphics("https://quantscience.rbind.io/author/hok-chio-mark-lai-%E9%BB%8E%E5%AD%B8%E6%98%AD/avatar_hu5fee5d8532847d51fbb6966683aaaac0_71984_270x270_fill_q90_lanczos_center.jpg")
